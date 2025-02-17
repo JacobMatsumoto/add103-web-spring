@@ -1,0 +1,23 @@
+body {
+
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    line-height: 2;
+    color: #8B0000;
+    background-color: #FFC0CB;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+} 
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.Container a { 
+    color: #4B0082;
+    padding: 5px;
+}

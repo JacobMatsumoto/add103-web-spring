@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: ivory;
+    color: rgb(64, 3, 3);
+}
+
+img {
+    width: 30%;
+    height: auto;
+    /* I set to auto so that I don't skew the image.*/
+    display: block;
+    margin: 10px auto;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    margin-left: 10px;
+}
+
+h3 {
+    color: blue;
+    margin-left: 25px;
+}
+
+p {
+    margin-left: 35px;
+}
+
+code {
+    background: grey;
+    color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+}
