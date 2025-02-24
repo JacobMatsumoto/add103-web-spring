@@ -40,6 +40,12 @@ h2 {
 
 /* Placeholder for the background styling, add your specific styles here */
 #background {
+    min-height: 500px;
+    background-image: url("../images/dogs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     /* Add background-specific styles here */
 }
 
@@ -72,15 +78,27 @@ h2 {
 
 /* Placeholder for picture tag, add your specific styles here */
 #picture-tag {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: block;
     /* Add picture tag-specific styles here */
 }
 
 /* Placeholder for linked image, add your specific styles here */
 #linked-image {
+    width: 100%;
+    height: auto;
+    padding: 10px;  
+    display: block;
     /* Add linked image-specific styles here */
 }
 
 /* Placeholder for image as a link, add your specific styles here */
 #img-as-link {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: block;
     /* Add image as link-specific styles here */
 }
