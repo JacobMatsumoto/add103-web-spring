@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(205, 200, 196, 0.42);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(110, 13, 13);
+}
+ol {
+    list-style-type: lower-roman;
+}
+
+ol ol {
+    list-style-type: upper-alpha;
+    color: darkblue;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+dt {
+    font-weight: bold;
+    color: crimson;
+}
+
+dd {
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif,;
+}

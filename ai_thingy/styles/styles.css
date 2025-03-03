@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000;
+    /* Red from the logo */
+    text-transform: uppercase;
+}
+
+p {
+    color: #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffff;
+    /* Electric blue from the logo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    color: #ff0000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #00ffff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+}

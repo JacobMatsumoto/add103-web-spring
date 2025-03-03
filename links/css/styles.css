@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    font-size: larger;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a,
+.top {
+    text-decoration: none;
+    background-color: rgb(43, 6, 61);
+    border: 2px solid ivory;
+    padding: 10px 20px;
+    margin-left: 15px;
+    color: ivory;
+    border-radius: 20px;
+}
+
+nav a:hover,
+.top:hover {
+    color: rgb(5, 56, 5);
+    background: ivory;
+}
+
+a {
+    color: rgb(97, 215, 152);
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+a:hover {
+    color: ivory;
+    text-decoration: underline;
+}
+
+div {
+    min-height: 250px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: ivory;
+}

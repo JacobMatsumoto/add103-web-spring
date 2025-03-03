@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
+    
+}
+nav{
+    text-align: center;
+}
+nav a, .container{
+    text-align: center;
+    text-decoration: none;
+    background-color: #6A0DAD;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    color: #000000;
+    border-radius: 20px;
+
+}
+#home{
+    background-color: #24003e;
+}
+
+#games{
+    background-color: #24003e;
+}
+
+#future{
+    background-color: #24003e;
+}
+
+.container{
+
+    width: 60%;
+    margin: auto;
+    border: solid #6A0DAD;
+    padding: 20px;
+    background: #D8BFD8;
+
+}
