@@ -1,7 +1,75 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
     color: darkgray;
-    
+    padding: 0px;
+    margin: 0px;
+    background-color: #24003e;
+
+}
+
+/* h2{
+    text-align: center;
+    padding-left: 80px;
+
+}
+p{
+    text-align: center;
+    padding-left: 920px;
+}
+img{
+    /* border: 2px solid #6A0DAD; */
+    /* padding-left: 200px;
+    padding-top: 50px; */ 
+
+/* } */
+#about_me img{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: block;
+    border: 2px solid #6A0DAD;
+
+}
+#about_me h2{
+    font-size: xx-large
+}
+#about_me p{
+    font-size: x-large;
+}
+#games img {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: block;
+    border: 2px solid #6A0DAD;
+
+}
+
+#games h2 {
+    font-size: xx-large
+}
+
+#games p {
+    font-size: x-large;
+}#future img {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px;
+     display: block;
+    border: 2px solid #6A0DAD;
+
+}
+
+#future h2 {
+    font-size: xx-large
+}
+
+#future p {
+    font-size: x-large;
 }
 nav{
     text-align: center;
@@ -18,6 +86,8 @@ nav a, .container{
 }
 #home{
     background-color: #24003e;
+    width: auto;
+    height: auto;
 }
 
 #games{
