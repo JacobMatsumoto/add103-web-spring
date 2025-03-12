@@ -37,6 +37,7 @@ img{
 }
 #about_me p{
     font-size: x-large;
+    padding: 15px;
 }
 #games img {
     float: left;
@@ -54,13 +55,14 @@ img{
 
 #games p {
     font-size: x-large;
+    padding: 15px;
 }#future img {
     float: left;
     width: auto;
     height: auto;
     margin: 10px;
      display: block;
-    border: 2px solid #6A0DAD;
+    border: 2px solid #6A0DAD
 
 }
 
@@ -70,7 +72,28 @@ img{
 
 #future p {
     font-size: x-large;
+        padding: 15px;
 }
+#cooking img {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: block;
+    border: 2px solid #6A0DAD;
+
+}
+
+#cooking h2 {
+    font-size: xx-large
+}
+
+#cooking p {
+    font-size: x-large;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 nav{
     text-align: center;
 }
@@ -80,7 +103,7 @@ nav a, .container{
     background-color: #6A0DAD;
     border: 2px solid #000000;
     padding: 10px 20px;
-    color: #000000;
+    color: ivory;
     border-radius: 20px;
 
 }
@@ -106,4 +129,16 @@ nav a, .container{
     padding: 20px;
     background: #D8BFD8;
 
+
+}
+#console{
+    clear: both;
+}
+#laptop{
+    clear: both;
+}
+
+#list{
+    list-style:decimal;
+    font-size: x-large;
 }
