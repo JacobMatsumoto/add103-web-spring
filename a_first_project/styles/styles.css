@@ -103,7 +103,7 @@ nav a, .container{
     background-color: #6A0DAD;
     border: 2px solid #000000;
     padding: 10px 20px;
-    color: ivory;
+    color:ivory;
     border-radius: 20px;
 
 }
@@ -121,6 +121,7 @@ nav a, .container{
     background-color: #24003e;
 }
 
+
 .container{
 
     width: 60%;
@@ -130,6 +131,9 @@ nav a, .container{
     background: #D8BFD8;
 
 
+}
+#title {
+    columns: black;
 }
 #console{
     clear: both;
