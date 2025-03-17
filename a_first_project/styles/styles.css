@@ -130,7 +130,12 @@ nav a, .container{
     padding: 20px;
     background: #D8BFD8;
 
-
+}
+nav a:hover,
+.top:hover {
+    color: #24003e;
+    background: ivory;
+    text-decoration: underline
 }
 #title {
     columns: black;
@@ -145,4 +150,8 @@ nav a, .container{
 #list{
     list-style:decimal;
     font-size: x-large;
+} 
+
+h1{
+    color: #24003e
 }
