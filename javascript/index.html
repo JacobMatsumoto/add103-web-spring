@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Image Change</h1>
+        <!-- (div>img)*5 -->
+        <div class="grid-container">
+            <div><img src="images/duckbacca.png" alt="Duck Bacca"  onclick='change(images/duckbacca.png)''></div>
+            <div><img src="images/duckstar.png" alt="Duck Star" onclick='change("images/duckstar.png")'></div>
+            <div><img src="images/duckvader.png" alt="Duck Vader" onclick='change("images/duckvader.png")'></div>
+            <div><img src="images/leia.png" alt="Princess Leia as a duck" onclick='change("images/leia.png")'></div>
+            <div><img src="images/wookieandrobot.png" alt="Wookie and Robot" onclick='change("images/wookieandrobot.png")'></div>
+        </div>
+        <div>
+            <img src="images/duckbacca.png" id="large">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(26, 3, 47);
+    font-size: x-large;
+    font-family: "Work Sans", sans-serif;
+    line-height: 2;
+    color: rgb(212, 212, 174);
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid rgb(240, 180, 49);
+}
+
+img {
+    width: 40%;
+    margin: 15px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    /* Creates grid layout*/
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: #1a032f;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: #edb231;
+}
+
+.grid-container>div>img {
+    width: 75%;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+#large {
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    background: #edb231;
+}
