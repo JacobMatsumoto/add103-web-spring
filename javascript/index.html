@@ -13,14 +13,16 @@
         <h1>JavaScript Image Change</h1>
         <!-- (div>img)*5 -->
         <div class="grid-container">
-            <div><img src="images/duckbacca.png" alt="Duck Bacca"  onclick='change("images/duckbacca.png")''></div>
-            <div><img src="images/duckstar.png" alt="Duck Star" onclick='change("images/duckstar.png")'></div>
-            <div><img src="images/duckvader.png" alt="Duck Vader" onclick='change("images/duckvader.png")'></div>
-            <div><img src="images/leia.png" alt="Princess Leia as a duck" onclick='change("images/leia.png")'></div>
-            <div><img src="images/wookieandrobot.png" alt="Wookie and Robot" onclick='change("images/wookieandrobot.png")'></div>
+            <div><img src="images/duckbacca.png" alt="Duck Bacca"  onclick="change_on_click(2)"></div>
+            <div><img src="images/duckstar.png" alt="Duck Star" onclick="change_on_click(0)"></div>
+            <div><img src="images/duckvader.png" alt="Duck Vader" onclick="change_on_click(1)"></div>
+            <div><img src="images/leia.png" alt="Princess Leia as a duck" onclick="change_on_click(3)"></div>
+            <div><img src="images/wookieandrobot.png" alt="Wookie and Robot" onclick="change_on_click(4)"></div>
         </div>
         <div>
+            <h1 id="title_display">Lorem ipsum dolor sit amet</h1>
             <img src="images/duckbacca.png" id="large">
+            <p id="paragraph_display">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet repellat praesentium eius expedita cupiditate veniam quibusdam harum non dicta distinctio suscipit ducimus consequatur, nobis nam excepturi reiciendis architecto magnam officiis?</p>
         </div>
     </div>
 
