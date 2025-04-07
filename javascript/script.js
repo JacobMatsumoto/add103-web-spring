@@ -42,8 +42,20 @@ function change(picture, paragraph, title) {
 
 let index_change = 0
 
-change();{
-    let item = items[index_change];
-    change(item.picture,item.paragraph,item.title)
-    index_change = (index_change + 1) % items.length;
-}
+// setInterval()
+//     const item = items[index_change];
+//     change(item.picture,item.paragraph,item.title)
+//     index_change = (index_change + 1) % items.length; 5000;
+setInterval(() => {
+    const item = items[index_change]; // Get the current item from the array
+    change(item.picture, item.paragraph, item.title); // Update the display
+    index_change = (index_change + 1) % items.length; // Increment the index and loop back to 0 when it reaches the end
+}, 5000);
+
+
+// setInterval(() => {
+//     const item = items[index_change]; // Get the current item from the array
+//     change(item.picture, item.paragraph, item.title); // Update the display
+//     index_change = (index_change + 1) % items.length; // Increment the index and loop back to 0 when it reaches the end
+// }, 5000);
+//this is
