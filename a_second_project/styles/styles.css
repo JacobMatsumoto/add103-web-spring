@@ -258,13 +258,15 @@ img {
     margin: 15px auto;
     padding: 10px;
     background: var(--dark_primary);
+    border-radius: 10px;
+    border: 2px solid var(--primary_text);
 }
 /*
 space
 */
 h1, h2{
     text-align: center;
-    color: var(--secondary_text);
+    color: var(--primary_text);
     font-family: var(--header_text);
     font-size: xx-large;
     margin: 10px auto;
