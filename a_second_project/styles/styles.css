@@ -402,6 +402,9 @@ below is page 3 and 4
     clear: both;
 
 }
+.home_page h1{
+    font-size: xx-large !important;
+}
 .home_page p{
     margin: 40px auto;
 }
