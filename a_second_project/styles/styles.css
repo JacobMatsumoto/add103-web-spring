@@ -313,11 +313,12 @@ p{
     margin: 10px auto;
     width: 80%;
     height: auto;
-    border: 2px solid var(--dark_primary);
+    border: 2px solid var(--primary_text);
     text-align: center;
     padding: 30px;
     border-radius: 10px;
     background-color: var(--dark_primary);
+
 }
 .container{
     width: 100%;
