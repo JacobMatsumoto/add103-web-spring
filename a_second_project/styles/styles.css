@@ -266,7 +266,7 @@ space
 */
 h1, h2{
     text-align: center;
-    color: var(--primary_text);
+    color: var(--primary_text) !important;
     font-family: var(--header_text);
     font-size: xx-large;
     margin: 10px auto;
