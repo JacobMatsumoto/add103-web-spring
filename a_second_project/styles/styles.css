@@ -165,9 +165,10 @@ header,
 footer {
     background-color: var(--dark_primary);
     text-align: center;
-    color: var(--accent_color);
+    color: var(--light_text);
     padding: 20px;
     font-family: var(--header_text);
+    border: var(--primary_text);
 }
 
 h1 {
@@ -409,4 +410,17 @@ below is page 3 and 4
 }
 .home_page p{
     margin: 40px auto;
+}
+
+.footer_container {
+    text-align: center;
+    width: 80% auto;
+    border: 2px solid var(--primary_color);
+    margin: 5px;
+    clear: both;
+}
+
+figcaption{
+    font-size: large;
+    font-family: var(--header_text);
 }
