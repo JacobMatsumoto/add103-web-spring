@@ -311,7 +311,7 @@ p{
 }
 .button_container{
     margin: 10px auto;
-    width: 60%;
+    width: 80%;
     height: auto;
     border: 2px solid var(--dark_primary);
     text-align: center;
