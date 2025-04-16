@@ -376,6 +376,7 @@ below is page 3 and 4
     margin: 25px auto;
     padding: 20px;
     background: var(--primary_color);
+    border-radius: 10px;
 }
 #title_display{
     font-size: x-large;
