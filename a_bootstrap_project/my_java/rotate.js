@@ -13,7 +13,7 @@ const items = [
     },
     {
         picture: "images/TobiSquare2.jpeg", 
-        paragraph: "Our family’s cats live in separate homes, each bringing their own quirks to their surroundings. Jade and Shifu are calm observers, often found quietly watching the world. Taco and Tobi add energy, dashing around and chasing everything in sight. Mira, Thor, Shadow, and Stripes enjoy their independence, exploring their spaces with curiosity. Ginger and Frank are the laid-back ones, preferring cozy corners to curl up in. Though they don’t share a roof, they each leave their unique imprint on their households.?", 
+        paragraph: "Our family’s cats live in separate homes, each bringing their own quirks to their surroundings. Jade and Shifu are calm observers, often found quietly watching the world. Taco and Tobi add energy, dashing around and chasing everything in sight. Mira, Thor, Shadow, and Stripes enjoy their independence, exploring their spaces with curiosity. Ginger and Frank are the laid-back ones, preferring cozy corners to curl up in. Though they don’t share a roof, they each leave their unique imprint on their households.", 
         title:"Jacob's Family's Cats",
     },
     {
