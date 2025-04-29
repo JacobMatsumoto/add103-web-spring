@@ -2,71 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What do they like?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob's family’s cats</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript this and above are from w3 schools-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../styles/styles.css" />
 </head>
 
-<body>
-    <div class="button_container">
-        <nav>
-            <a class="button" href="../index.html">Jacob's Family's Cats</a>
-            <a class="button" href="a_little_about_them.html">A Little Bit About Them</a>
-            <a class="button" href="what_do_they_like.html">What Do They Like?</a>
-            <a class="button" href="more_pictures.html">More Pictures!</a>
-            <a class="button" href="even_more_pictures.html">Even More Pictures!</a>
-        </nav>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Being cats!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Zoomies!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Toys!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="dumb-body container text-center">
+        <h2>What do they like?</h2>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Pictures</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="more_pictures.html">More Pictures</a></li>
+                    <li><a class="dropdown-item" href="even_more_pictures.html">Even More Pictures!</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="what_do_they_like.html">What Do They Like?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="a_little_about_them.html">A Little About Them</a>
+            </li>
+            </li>
+        </ul>
+    </div >
+        
+    <div class="row">
+        <div>
+            <div id="section1" class="container-fluid bg-dark-purp" style="padding:100px 20px;">
+                <h1 style="color: var(--light_text);">Being cats!</h1>
+                <p style="color: var(--light_text);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, numquam in? Possimus deleniti nisi nemo dignissimos aliquid tempore beatae explicabo nesciunt accusantium ad dolor debitis enim, dicta vitae incidunt distinctio!</p>
+                <p style="color: var(--light_text);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga id voluptas est quo tempore assumenda aliquid distinctio reiciendis autem consequatur odit error incidunt iusto doloremque, corrupti aperiam quasi voluptatum?</p>
+            </div>
+
+            <div id="section2" class="container-fluid bg-lite" style="padding:100px 20px;">
+                <h1 style="color: var(--light_text);">Zoomies!</h1>
+                <p style="color: var(--light_text);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum accusantium maiores iusto sed asperiores vel praesentium. Adipisci esse iste illo nihil, facilis fuga quibusdam maxime, culpa odio rerum aliquam?</p>
+                <p style="color: var(--light_text);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nobis nam velit. Blanditiis aliquam esse a id? Incidunt officiis mollitia, itaque numquam molestiae nam, voluptatum ex similique ipsa minima magni.</p>
+            </div>
+
+            <div id="section3" class="container-fluid bg-dark-purp" style="padding:100px 20px;">
+                <h1 style="color: var(--light_text);">Toys!</h1>
+                <p style="color: var(--light_text);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nam dolor eum illum corporis optio, voluptate aliquid ab debitis doloribus. Rem eligendi saepe consequatur explicabo harum molestiae assumenda magni libero.</p>
+                <p style="color: var(--light_text);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore soluta rerum, voluptatem praesentium nisi exercitationem blanditiis a quis consequuntur tenetur numquam provident totam quae in libero nemo id ipsam reiciendis!</p>
+            </div>
+    <div id="demo" class="carousel slide col-md-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/buts.jpeg" alt="cat" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/frank2.jpeg" alt="cat" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/buts.jpeg" alt="cat" class="d-block" style="width:100%">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button> 
+        <!--https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_carousel-->
     </div>
-    <h1>What do they like?</h1>
-    <div class="layout">
-        <div class="main_content">
+
+        <div class="col-md-6">
             <div class="container">
-                <div class="photo_left">
-                    <img src="../images/rav.jpeg" alt="Black and white cat">
-                    <p>
-                        Rav is a very petite cat, she likes to hide but will come out and play when no one is around late at night. She was found on a Rav 4 truck, hence the name. Her and Taco are very similar.
-                    </p>
-                </div>
+
+
+                <button type="button" class="btn btn-primary modal-container" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="../images/Tobi3.jpeg" alt="tobi cat">
+                </button>
             </div>
 
-            <div class="container">
-                <div class="photo_right">
-                    <img src="../images/Mira4.jpeg" alt="old grey maine coon">
-                    <p>
-                        Mira is my dads cat, she is incredibly old at about 17 or 18, she was an outdoor cat so we don't know how old exactly. She likes to sleep most of the day these days, with her age she is still very healthy and she really does love my dad, she will almost exclusively hang out around him or the highest spot in the house on the shelves in the kitchen.
-                    </p>
-                </div>
-            </div>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
 
-            <div class="container">
-                <div class="photo_left">
-                    <img src="../images/Thor1.jpeg" alt="Large orange cat">
-                    <p>
-                       Thor is my dads other cat, he is the definition of a trouble maker! He likes harrassing the other cats in the house to get them to play with him. He just likes to play and fight.
-                    </p>
+                        <div class="modal-header">
+                            <h4 class="modal-title">More about Tobi!</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Tobi is a wholesome bean who loves attention
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
         </div>
-
-
-        <div class="sidebar">
-            <figure>
-            <img src="../images/Mira2Vertical.jpeg" alt="A grey fluffy cat">
-            <figcaption>Mira looking cute</figcaption>
-            </figure>
-            <figure>
-            <img src="../images/Tobi1Vertical.jpeg" alt="Siamese cat in bucket">
-            <figcaption>Tobi sitting in a bucket, how cute!</figcaption>
-            </figure>
-            <figure>
-            <img src="../images/Stripes1Vertical.jpeg" alt="striped cat in bucket">
-            <figcaption>Stripes is a copy cat huh?</figcaption>
-            </figure>
-        </div>
-
     </div>
 </body>
+    
 <div class="footer_container">
     <footer>
         <p>&copy; Jacob Ryan Matsumoto 2025</p>

@@ -32,21 +32,17 @@ const items = [
         title:"Tobi and Stripes taking a nap"
     }
 ]
-let current_index = 0;
 function change_on_click(index) {
     const item = items[index];
-    current_index = index
     change(item.picture, item.paragraph, item.title);
 }
-function arrow_right() {
-    current_index = (current_index + 1) % items.length;
-    const item = items[current_index];
-    change(item.picture, item.paragraph, item.title);
+function arrow_right(index) {
+    const item = items[index];
+    index = (index + 1) % items.length;
 }
-function arrow_left() {
-    current_index = (current_index + 1) % items.length;
-    const item = items[current_index];
-    change(item.picture, item.paragraph, item.title);
+function arrow_left(index) {
+    const item = items[index];
+    index = (index - 1) % items.length;
 }
 /* change the image */
 function change(picture, paragraph, title) {

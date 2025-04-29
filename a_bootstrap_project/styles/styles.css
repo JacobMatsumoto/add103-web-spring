@@ -1,3 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+space
+*/
+
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --dark_primary: #512da8;
     --light_primary: #d1c4e9;
@@ -26,8 +170,9 @@ footer {
     font-family: var(--header_text);
 }
 
-h1 {
-    color: var(--accent_color);
+h1, h2 {
+    color: var(--primary_text);
+    font-family: var(--header_text);
 }
 
 .container {
@@ -119,8 +264,94 @@ a:hover {
 gap......................................................
 */
 img {
+    margin: 5px;
     padding: 10px;
     background: var(--dark_primary);
     border-radius: 10px;
     border: 2px solid var(--primary_text);
+}
+h1, h2{
+    color: var(--primary_text);
+    font-size: xx-large;
+    margin: 10px;
+    /* text-align: center; */
+}
+
+p {
+    color: var(--primary_text);
+    font-size: x-large;
+    margin: 5px;
+}
+
+.row{
+    gap: 10px;
+}
+
+.picture_box{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid var(--primary_text);
+    background-color: var(--primary_color);
+    border-radius: 10px;
+}
+.btn > img:hover {
+    filter: brightness(0.8);
+    color: var(--primary_text);
+}
+
+.dropdown-item:hover{
+    width: fit-content;
+    background-color: var(--light_text);
+    color: cornflowerblue;
+}
+
+.dropdown-item{
+    color: var(--primary_text);
+}
+
+.dropdown-menu{
+    background-color: var(--secondary_text);
+    color: var(--light_text);
+    border: 2px solid var(--primary_text);
+}
+
+.container{
+    background: var(--divider_color);
+}
+
+.nav-link{
+    color: var(--primary_color);
+}
+
+.nav-link:hover{
+    color: cornflowerblue;
+}
+
+
+.nav-link.active {
+    background: var(--primary_color)!important;
+    color: var(--primary_text)!important;
+}
+
+.bg-dark-purp{
+    background-color: var(--dark_primary);
+    color: var(--light_text) !important;
+    width: 80%;
+}
+.bg-lite{
+    background-color: var(--primary_color);
+    width: 80%;
+}
+
+.dumb-body{
+    margin-top: 100px;
+
+}
+
+.modal-container{
+    background-color: var(--dark_primary);
+}
+.modal-container>img{
+    border: none;
 }
