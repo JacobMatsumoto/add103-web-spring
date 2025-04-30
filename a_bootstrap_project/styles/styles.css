@@ -337,11 +337,28 @@ p {
 .bg-dark-purp{
     background-color: var(--dark_primary);
     color: var(--light_text) !important;
-    width: 80%;
+    width: auto;
+    font-size: xx-large;
+    border: 2px solid var(--primary_text);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+}
+.bg-dark-purp>p, .bg-lite>p{
+    font-size: xx-large;
+}
+.bg-dark-purp>h1{
+    font-size: xx-large;
 }
 .bg-lite{
     background-color: var(--primary_color);
     width: 80%;
+    width: auto;
+    font-size: xx-large;
+    border: 2px solid var(--primary_text);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 
 .dumb-body{
@@ -350,7 +367,11 @@ p {
 }
 
 .modal-container{
-    background-color: var(--dark_primary);
+    border: none;
+    background: none;
+    height: auto;
+    width: auto;
+    
 }
 .modal-container>img{
     border: none;
