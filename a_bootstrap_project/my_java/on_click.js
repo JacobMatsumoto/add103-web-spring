@@ -30,7 +30,27 @@ const items = [
         picture: "../images/TobiStripes2rect.jpeg", 
         paragraph: "Tobi and Stripes cuddling and napping together when they were younger, they are best of friends.", 
         title:"Tobi and Stripes taking a nap"
-    }
+    },
+    {
+        picture: "../images/buddybuddy.jpeg", 
+        paragraph: "Buddy Buddy is my S.O.'s family's cat, he is such a character. He is super nosey and loves to play", 
+        title:"Nosey Buddy Buddy"
+    },
+    {
+        picture: "../images/Tobi3.jpeg", 
+        paragraph: "Tobi laying down taking a nap, no, they can't avoid the cameras anywhere!", 
+        title: "Tobi taking a nap"
+    },
+    {
+        picture: "../images/taco2.jpeg", 
+        paragraph: "It is rare to see Taco out and about so we try to take advantage of those times by taking as many pictures as possible", 
+        title:"Taco trying to sleep but it is photo time"
+    },  
+    {
+        picture: "../images/taco1.jpeg", 
+        paragraph: "I'm 99.99% sure he was begging for treats in this photo. He always stands around that spot when he begs", 
+        title:"Taco begging"
+    },   
 ]
 let current_index = 0;
 function change_on_click(index) {

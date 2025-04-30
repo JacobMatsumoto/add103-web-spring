@@ -264,7 +264,6 @@ a:hover {
 gap......................................................
 */
 img {
-    margin: 5px;
     padding: 10px;
     background: var(--dark_primary);
     border-radius: 10px;
@@ -336,7 +335,6 @@ p {
 
 .bg-dark-purp{
     background-color: var(--dark_primary);
-    color: var(--light_text) !important;
     width: auto;
     font-size: xx-large;
     border: 2px solid var(--primary_text);
@@ -346,9 +344,11 @@ p {
 }
 .bg-dark-purp>p, .bg-lite>p{
     font-size: xx-large;
+    color: var(--light_text) !important;
 }
-.bg-dark-purp>h1{
+.bg-dark-purp>h1, .bg-lite>h1{
     font-size: xx-large;
+    color: var(--light_text) !important;
 }
 .bg-lite{
     background-color: var(--primary_color);
@@ -371,8 +371,10 @@ p {
     background: none;
     height: auto;
     width: auto;
+
     
 }
 .modal-container>img{
-    border: none;
+    border: none !important;
+    padding: none !important;
 }
