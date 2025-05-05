@@ -378,3 +378,8 @@ p {
     border: none !important;
     padding: none !important;
 }
+
+.top_nav{
+    justify-content: space-around !important;
+    margin: auto !important;
+}
