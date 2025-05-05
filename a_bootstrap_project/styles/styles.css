@@ -368,15 +368,13 @@ p {
 
 .modal-container{
     border: none;
-    background: none;
+    background: none !important;
     height: auto;
-    width: auto;
-
+    width: fit-content;
     
 }
 .modal-container>img{
-    border: none !important;
-    padding: none !important;
+
 }
 
 .top_nav{
