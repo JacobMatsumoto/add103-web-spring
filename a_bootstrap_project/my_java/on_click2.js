@@ -64,7 +64,9 @@ function arrow_right() {
     change(item.picture, item.paragraph, item.title);
 }
 function arrow_left() {
-    current_index = (current_index + 1) % items.length;
+    current_index = (current_index - 1) % items.length;
+    if (current_index == -1)
+        current_index = 9
     const item = items[current_index];
     change(item.picture, item.paragraph, item.title);
 }
