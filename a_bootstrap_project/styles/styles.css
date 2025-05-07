@@ -343,7 +343,7 @@ p {
     margin: 5px;
 }
 .bg-dark-purp>p, .bg-lite>p{
-    font-size: xx-large;
+    font-size: large;
     color: var(--light_text) !important;
 }
 .bg-dark-purp>h1, .bg-lite>h1{
@@ -384,8 +384,4 @@ p {
 
 .footer_container{
     margin-top: 50px;
-}
-
-.bg-dark-purp > p, .bg-lite > p{
-    font-size: x-large !important;
 }
