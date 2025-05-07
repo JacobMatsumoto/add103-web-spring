@@ -278,7 +278,7 @@ h1, h2{
 
 p {
     color: var(--primary_text);
-    font-size: x-large;
+    font-size: xx-large;
     margin: 5px;
 }
 
@@ -368,16 +368,20 @@ p {
 
 .modal-container{
     border: none;
-    background: none !important;
+    background: none;
     height: auto;
     width: fit-content;
-    
+    margin: none !important;
 }
-.modal-container>img{
-
+.modal-container button .btn{
+    padding: none !important;
 }
 
 .top_nav{
     justify-content: space-around !important;
     margin: auto !important;
+}
+
+.footer_container{
+    margin-top: 50px;
 }

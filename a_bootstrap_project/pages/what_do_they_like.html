@@ -18,21 +18,31 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#section1">Being cats!</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section2">Zoomies!</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section3">Toys!</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="row">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav justify-content-center">
+                    <div class="col-md-3 col-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">They Like Being Cats!</a>
+                        </li>
+                    </div>
+
+                    <div class="col-md-3 col-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Zoomies!</a>
+                        </li>
+                    </div>
+
+                    <div class="col-md-3 col-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Cat Nip!</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <div class="dumb-body container text-center">
         <h2>What do they like?</h2>
@@ -60,8 +70,18 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-8">
                 <div id="section1" class="container-fluid bg-dark-purp">
-                    <h1 >Being cats!</h1>
-                    <p style="color: var(--light_text);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, numquam in? Possimus deleniti nisi nemo dignissimos aliquid tempore beatae explicabo nesciunt accusantium ad dolor debitis enim, dicta vitae incidunt distinctioLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, numquam in? Possimus deleniti nisi nemo dignissimo</p>
+                    <h1>Being cats!</h1>
+                    <p style="color: var(--light_text);">Being a cat is an art—an effortless mastery of independence, curiosity, and quiet observation. Your family’s cats revel
+                    in their feline nature, finding joy in the simplest things: the warmth of a sunbeam stretched across the floor, the
+                    rhythmic flick of a tail, the slow blink exchanged in quiet understanding. They move through the world on their own
+                    terms, balancing moments of solitude with bursts of unpredictable energy. There’s no need for reason—they chase shadows
+                    for the thrill of it, knead soft blankets as if uncovering some ancient comfort, and perch in high places to watch,
+                    always watch, as if they alone hold the secrets of the universe. Their days are spent indulging in instincts that have
+                    guided their kind for centuries—stalking, lounging, claiming territory with a mere stretch of their paws. To be a cat is
+                    to exist with a quiet confidence, an unapologetic certainty that the world will always bend to accommodate them. And
+                    they know, without question, that it should.
+                    </p><!-- Copilot -->
+
                 </div>
             </div>
             <div class="col-md-3">
@@ -97,13 +117,20 @@
             <div class="col-md-8">
                 <div id="section2" class="container-fluid bg-lite">
                     <h1>Zoomies!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum accusantium maiores iusto sed asperiores vel praesentium. Adipisci esse iste illo nihil, facilis fuga quibusdam maxime, culpa odio rerum aliquam?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nobis nam velit. Blanditiis aliquam esse a id? Incidunt officiis mollitia, itaque numquam molestiae nam, voluptatum ex similique ipsa minima magni.</p>
+                    <p>Something takes hold—an invisible spark, a sudden urge—and just like that, your family’s cats explode into motion. Their
+                    eyes widen, pupils dilate, and in an instant, they’re tearing through the house as if propelled by some unseen force.
+                    There’s no pattern to their frenzy—one moment they’re ricocheting off furniture, the next they’re skidding across floors
+                    with wild abandon. It’s as if their bodies can’t contain the restless energy surging through them, their limbs moving
+                    faster than their minds can process. The thundering stampede of paws against the ground echoes through the walls,
+                    followed by sharp turns, sudden leaps, and near-misses that seem almost intentional. And then, just as abruptly as it
+                    started, it’s over. They collapse where they stand, chest heaving, eyes blinking as though shaken from a trance. The
+                    storm has passed, leaving only silence—and maybe a tipped-over chair in its wake.
+                </p><!-- Copilot -->
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="container modal-container">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
                         <img src="../images/Tobi3.jpeg" alt="tobi cat" class="img-fluid">
                     </button>
                 </div>
@@ -136,11 +163,17 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-8">
                 <div id="section3" class="container-fluid bg-dark-purp">
-                    <h1>Toys!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, numquam
-                        in? Possimus deleniti nisi nemo dignissimos aliquid tempore beatae explicabo nesciunt accusantium ad
-                        dolor debitis enim, dicta vitae incidunt distinctioLorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Modi, numquam in? Possimus deleniti nisi nemo dignissimo</p>
+                    <h1>Cat Nip</h1>
+                    <p>Catnip has a peculiar hold over your family’s cats. The moment its scent reaches them, some become utterly
+                    consumed—rolling, rubbing, clawing at the source as if possessed by an unseen force. Others take a more subdued
+                    approach, inhaling deeply, their eyes glazing over as they drift into a state of sluggish tranquility. It’s fascinating
+                    how differently each cat reacts, but the effect is undeniable: catnip alters them, awakening an instinctual response
+                    they can’t resist. The more sensitive ones seem almost overwhelmed, lost in a haze of twitching whiskers and exaggerated
+                    movements, while others become eerily still, observing their surroundings with a strange, unfocused intensity. As the
+                    effects wear off, the frenzy fades into exhaustion, leaving them sprawled out, drowsy and dazed as if the experience
+                    drained something vital from them. Whether it sparks wild energy or a quiet stupor, catnip has an undeniable power over
+                    their senses—something primal, fleeting, and entirely uncontrollable.
+                    </p><!-- Copilot -->
                 </div>
             </div>
             <div class="col-md-3">
@@ -171,12 +204,15 @@
                 </div>
             </div>
         </div>
+
+            <div class="row">
+                <div class="footer_container col-md-12" style="margin-top: 50px;">
+                    <footer>
+                        <p>&copy; Jacob Ryan Matsumoto 2025</p>
+                        <p style="font-size: medium;">Text on this screen generated using Microsoft's Copilot</p>
+                    </footer>
+                </div>
+            </div>
 </body>
-    <div class="row">
-        <div class="footer_container col-md-12"  style="margin-top: 50px;">
-            <footer>
-                <p>&copy; Jacob Ryan Matsumoto 2025</p>
-            </footer>
-        </div>
-    </div>
+
 </html>
