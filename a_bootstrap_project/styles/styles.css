@@ -386,6 +386,6 @@ p {
     margin-top: 50px;
 }
 
-.bg-dark-purp>p .bg-lite>p{
-    font-size: x-large;
+.bg-dark-purp > p, .bg-lite > p{
+    font-size: x-large !important;
 }
