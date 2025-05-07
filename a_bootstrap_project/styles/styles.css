@@ -331,6 +331,7 @@ p {
 .nav-link.active {
     background: var(--primary_color)!important;
     color: var(--primary_text)!important;
+    text-align: center;
 }
 
 .bg-dark-purp{
@@ -361,10 +362,7 @@ p {
     margin: 5px;
 }
 
-/* .dumb-body{
-    margin-top: 200px;
 
-} */
 
 .modal-container{
     border: none;
@@ -385,3 +383,23 @@ p {
 .footer_container{
     margin-top: 50px;
 }
+
+.navbar, .navbar-dark{
+    max-height: 100px;
+}
+
+.nav-item{
+    width: fit-content;
+}
+.navbar-nav{
+    width: 80%;
+    justify-content: space-around !important;
+}
+.nav-link{
+    text-align: center !important;
+}
+.bs{
+    justify-content: center !important;
+    display: flex;
+}
+/* debugged using copilot just needed display flex */
