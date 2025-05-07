@@ -330,7 +330,7 @@ p {
 
 .nav-link.active {
     background: var(--primary_color)!important;
-    color: var(--primary_text)!important;
+    color: var(--light_text)!important;
     text-align: center;
 }
 
@@ -389,6 +389,7 @@ p {
 }
 
 .nav-item{
+    
     width: fit-content;
 }
 .navbar-nav{
@@ -401,5 +402,7 @@ p {
 .bs{
     justify-content: center !important;
     display: flex;
+    color: var(--light_text);
 }
+
 /* debugged using copilot just needed display flex */
