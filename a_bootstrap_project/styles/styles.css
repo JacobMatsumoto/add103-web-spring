@@ -385,3 +385,7 @@ p {
 .footer_container{
     margin-top: 50px;
 }
+
+.bg-dark-purp>p .bg-lite>p{
+    font-size: x-large;
+}
